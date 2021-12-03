@@ -17,7 +17,7 @@ select a title then cmd+f of ctrl+f to go.
 
 /* 1_body tablette */
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .center {
     max-width: 100vw;
     margin: 0 auto;
@@ -26,11 +26,9 @@ select a title then cmd+f of ctrl+f to go.
     flex-wrap: wrap;
     justify-content: center;
   }
-}
 
-/* 2_header tablette */
+  /* 2_header tablette */
 
-@media (min-width: 768px) and (max-width: 992px) {
   .navigation_bar {
     display: flex;
     flex-wrap: wrap;
@@ -82,11 +80,9 @@ select a title then cmd+f of ctrl+f to go.
   nav a:hover {
     border-top: none;
   }
-}
 
-/* 3_pre-top section and search-box  tablette */
+  /* 3_pre-top section and search-box  tablette */
 
-@media (min-width: 768px) and (max-width: 992px) {
   .sub_nav {
     width: 100vw;
     display: flex;
@@ -169,14 +165,13 @@ select a title then cmd+f of ctrl+f to go.
     border: 2px solid #f2f2f2;
     border-radius: 70%;
   }
-}
 
-/* 4_top section tablette */
+  /* 4_top section tablette */
 
-@media (min-width: 768px) and (max-width: 992px) {
   .topmediaq {
     max-width: 100vw;
   }
+
   .top_section {
     width: 100vw;
     margin: 30px 0px 0px 0px;
@@ -251,11 +246,9 @@ select a title then cmd+f of ctrl+f to go.
   .end_pre_top_section p {
     width: max-content;
   }
-}
 
-/* 5_main block tablette */
+  /* 5_main block tablette */
 
-@media (min-width: 768px) and (max-width: 992px) {
   .main_content {
     width: 100vw;
     display: flex;
@@ -337,11 +330,9 @@ select a title then cmd+f of ctrl+f to go.
   .acm {
     top: -205px;
   }
-}
 
-/* 6_aside tablette */
+  /* 6_aside tablette */
 
-@media (min-width: 768px) and (max-width: 992px) {
   .aside {
     min-width: 100vw;
     height: max-content;
@@ -391,10 +382,9 @@ select a title then cmd+f of ctrl+f to go.
     width: 40%;
     height: 120px;
   }
-}
 
-/* 7_bottom section tablette */
-@media (min-width: 768px) and (max-width: 992px) {
+  /* 7_bottom section tablette */
+
   #activités_a_marseille {
     width: 100%;
     display: flex;
@@ -552,11 +542,9 @@ select a title then cmd+f of ctrl+f to go.
     position: relative;
     top: -25px;
   }
-}
 
-/* 8_footer styling tablette */
+  /* 8_footer styling tablette */
 
-@media (min-width: 768px) and (max-width: 992px) {
   .bottom_container {
     background-color: #f2f2f2;
     display: flex;

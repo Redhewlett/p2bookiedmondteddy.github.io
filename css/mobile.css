@@ -24,11 +24,9 @@ select a title then cmd+f of ctrl+f to go.
     justify-content: center;
     align-content: center;
   }
-}
 
-/* 1_header mobile */
+  /* 1_header mobile */
 
-@media (max-width: 768px) {
   .navigation_bar {
     display: flex;
     flex-wrap: wrap;
@@ -88,11 +86,9 @@ select a title then cmd+f of ctrl+f to go.
   nav a:hover {
     border-top: none;
   }
-}
 
-/* 2_pre-top section and search-box  mobile */
+  /* 2_pre-top section and search-box  mobile */
 
-@media (max-width: 768px) {
   .sub_nav {
     width: 100vw;
     display: flex;
@@ -176,11 +172,9 @@ select a title then cmd+f of ctrl+f to go.
     position: relative;
     left: -25px;
   }
-}
 
-/* 3_top section mobile */
+  /* 3_top section mobile */
 
-@media (max-width: 768px) {
   .topmediaq {
     max-width: 100vw;
     display: flex;
@@ -272,11 +266,9 @@ select a title then cmd+f of ctrl+f to go.
   .end_pre_top_section p {
     width: 75%;
   }
-}
 
-/* 4_main block mobile */
+  /* 4_main block mobile */
 
-@media (max-width: 768px) {
   .main_content {
     width: 100vw;
     display: flex;
@@ -356,11 +348,9 @@ select a title then cmd+f of ctrl+f to go.
   .acm {
     top: -195px;
   }
-}
 
-/* 5_aside mobile */
+  /* 5_aside mobile */
 
-@media (max-width: 768px) {
   .aside {
     min-width: 100vw;
     max-width: 100vw;
@@ -380,10 +370,9 @@ select a title then cmd+f of ctrl+f to go.
     height: 135px;
     flex-basis: 85%;
   }
-}
 
-/* 6_bottom section mobile */
-@media (max-width: 768px) {
+  /* 6_bottom section mobile */
+
   #activités_a_marseille {
     width: 90vw;
     margin: 0px 0px 20px 0px;
@@ -515,11 +504,9 @@ select a title then cmd+f of ctrl+f to go.
     justify-content: center;
     align-items: center;
   }
-}
 
-/* 7_footer mobile */
+  /* 7_footer mobile */
 
-@media (max-width: 768px) {
   .bottom_container {
     width: 100vw;
     height: max-content;
