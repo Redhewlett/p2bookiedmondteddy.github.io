@@ -248,6 +248,10 @@ select a title then cmd+f of ctrl+f to go.
     top: 0px;
     left: 12px;
   }
+  .top_section h3 {
+    width: 78%;
+    margin: 0px;
+  }
 
   .filtres:hover {
     color: white;
