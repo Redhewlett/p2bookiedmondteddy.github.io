@@ -94,10 +94,12 @@ select a title then cmd+f of ctrl+f to go.
     line-height: 25px;
     margin: 50px 0px 0px 0px;
   }
+
   .sub_nav h2 {
     width: 100%;
     margin: 0px 0px 5px 0px;
   }
+
   .sub_nav p {
     margin: 0% 0% 2% 23%;
   }
@@ -183,6 +185,24 @@ select a title then cmd+f of ctrl+f to go.
     justify-content: center;
     gap: 15px 10px;
   }
+
+  .mediahead {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .mediahead h2 {
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .mediahead p {
+    width: 80%;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+  }
+
   .top_section h3 {
     width: 100%;
     margin: 0px 0px 0px 70px;
@@ -215,6 +235,7 @@ select a title then cmd+f of ctrl+f to go.
     transition: ease-in-out 400ms;
     cursor: grab;
   }
+
   .filtres {
     display: flex;
     place-items: center;
@@ -333,7 +354,8 @@ select a title then cmd+f of ctrl+f to go.
     margin: 0px 0px 10px 0px;
   }
   .populaire h2 {
-    font-size: 20px;
+    width: 70%;
+    justify-content: space-evenly;
   }
 
   .populaire .fa-chart-line {

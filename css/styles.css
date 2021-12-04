@@ -321,18 +321,19 @@ nav a:hover {
 .populaire {
   width: 90%;
   display: flex;
-  justify-content: left;
-  gap: 34%;
+  justify-content: center;
   margin-top: 25px;
 }
 
 .populaire h2 {
-  font-size: 1vw;
+  display: flex;
+  width: 86%;
   margin: 0px;
+  justify-content: space-between;
 }
 
 .populaire .fa-chart-line {
-  font-size: 1vw;
+  font-size: 20px;
   color: black;
 }
 

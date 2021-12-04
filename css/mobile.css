@@ -304,7 +304,6 @@ select a title then cmd+f of ctrl+f to go.
 
   .element {
     width: 90%;
-    display: flex;
     background-color: white;
     padding: 6px;
     border-radius: 20px;
@@ -347,12 +346,13 @@ select a title then cmd+f of ctrl+f to go.
     justify-content: center;
     gap: 20px;
   }
-  .populaire h2 {
-    font-size: 20px;
+
+  .populaire {
+    width: 100%;
   }
 
-  .populaire .fa-chart-line {
-    font-size: 20px;
+  .populaire h2 {
+    width: 90%;
   }
 
   .aside_element {
