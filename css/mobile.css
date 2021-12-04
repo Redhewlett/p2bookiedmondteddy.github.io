@@ -14,7 +14,7 @@ select a title then cmd+f of ctrl+f to go.
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
 
 /* everything take 100vw on phone display */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .center {
     width: 100vw;
     margin: 0 auto;
@@ -55,6 +55,7 @@ select a title then cmd+f of ctrl+f to go.
   }
 
   nav ul {
+    width: 100%;
     font-size: 4vw;
     display: flex;
     justify-content: center;
@@ -135,6 +136,10 @@ select a title then cmd+f of ctrl+f to go.
   .fa-map-marker-alt {
     font-size: 20px;
     color: black;
+  }
+
+  .form_box {
+    width: auto;
   }
 
   .search_box input {
@@ -298,12 +303,12 @@ select a title then cmd+f of ctrl+f to go.
   }
 
   .element {
+    width: 90%;
     display: flex;
     background-color: white;
     padding: 6px;
     border-radius: 20px;
     box-shadow: 0px 1px 3px 1px rgb(161, 161, 161);
-    flex-basis: 85%;
   }
 
   .element_text {
@@ -312,41 +317,18 @@ select a title then cmd+f of ctrl+f to go.
   }
 
   .img_overflow {
+    width: 100%;
+    height: 125px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     overflow: hidden;
-    width: 100%;
-    height: 125px;
     margin-bottom: 5px;
   }
 
   .img_overflow img {
     width: 100%;
-    position: relative;
-  }
-
-  .aub {
-    top: -56px;
-  }
-
-  .hdp {
-    top: -50px;
-  }
-
-  .hlm {
-    top: -50px;
-  }
-
-  .hdm {
-    top: -97px;
-  }
-
-  .alp {
-    top: -45px;
-  }
-
-  .acm {
-    top: -195px;
+    height: 100%;
+    object-fit: cover;
   }
 
   /* 5_aside mobile */
@@ -363,6 +345,14 @@ select a title then cmd+f of ctrl+f to go.
     flex-wrap: wrap;
     margin-left: 0px;
     justify-content: center;
+    gap: 20px;
+  }
+  .populaire h2 {
+    font-size: 20px;
+  }
+
+  .populaire .fa-chart-line {
+    font-size: 20px;
   }
 
   .aside_element {

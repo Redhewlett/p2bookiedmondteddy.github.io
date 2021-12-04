@@ -24,7 +24,7 @@ body {
 }
 
 .center {
-  width: 80vw;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -45,14 +45,15 @@ a {
 
 header img {
   width: 90px;
-  margin: 48px 0px 0px 50px;
+  margin: 48px 0px 0px 85px;
 }
 
 nav ul {
+  width: 30%;
   list-style-type: none;
   display: inline-flex;
+  margin-left: 300px;
   margin-top: 63px;
-  margin-left: 260px;
 }
 
 nav a {
@@ -72,11 +73,23 @@ nav a:hover {
 
 /* 3_pre-top section and search-box */
 .sub_nav {
+  width: 90%;
   line-height: 10px;
-  margin: 30px 0px 0px 50px;
+  margin: 30px 0px 0px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mediahead {
+  width: 100%;
+  margin: 0px;
+  flex-shrink: 0;
 }
 .form_box {
+  width: 90%;
   display: flex;
+  flex-shrink: 0;
 }
 
 .position {
@@ -124,7 +137,8 @@ nav a:hover {
   font-weight: 600;
 }
 .end_pre_top_section {
-  margin-left: 52px;
+  width: 90%;
+  margin-left: 0px;
   margin-bottom: 30px;
 }
 
@@ -148,21 +162,22 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
   gap: 0px;
 }
 
 .top_section {
-  width: 1000px;
-  margin: 35px 0px 10px 60px;
+  width: 90vw;
+  margin: 35px 0px 10px 0px;
   display: flex;
-  gap: 30px;
+  gap: 10px;
 }
 .top_section h3 {
   max-width: 100px;
 }
 
 .filtre_container {
-  max-width: 900px;
+  width: 90vw;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -201,7 +216,7 @@ nav a:hover {
   font-weight: 600;
   height: 46px;
   border: 2px solid #f2f2f2;
-  padding: 0px 20px 0px 60px;
+  padding: 0px 20px 0px 50px;
   border-radius: 50px;
   position: relative;
   top: 0px;
@@ -219,25 +234,24 @@ nav a:hover {
 
 .main_content {
   display: flex;
-  padding: 0px 50px 0px 50px;
-  justify-content: center;
+  padding: 0px 0px 0px 0px;
+  justify-content: space-evenly;
 }
 
 #heberg_container {
-  max-width: 850px;
+  width: 60%;
   height: max-content;
-  padding: 25px 30px 30px 30px;
   background-color: #f2f2f2;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 25px 25px;
 }
 
 .element {
+  width: 27%;
   background-color: white;
-  flex: 0 1 10%;
   padding: 6px;
   border-radius: 15px;
   box-shadow: 0px 1px 3px 1px rgb(199, 199, 199);
@@ -262,29 +276,9 @@ nav a:hover {
 }
 
 .img_overflow img {
-  width: 250px;
-  position: relative;
-}
-
-.aub {
-  top: -26px;
-}
-.hdp {
-  top: -20px;
-}
-.hlm {
-  top: -20px;
-}
-.hdm {
-  top: -47px;
-}
-
-.alp {
-  top: -10px;
-}
-
-.acm {
-  top: -120px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .main_content .fas {
@@ -299,46 +293,51 @@ nav a:hover {
 }
 
 .full_line {
-  width: 150%;
-}
-
-#full_line {
-  width: 150%;
-  font-weight: bold;
+  width: 90%;
+  margin-top: 3%;
 }
 
 .full_line h2 {
   margin: 0px;
 }
 
+#full_line {
+  width: 90%;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
 /* 6_aside */
 
 .aside {
-  min-width: 400px;
-  max-width: 400px;
-  padding: 25px 0px 30px 35px;
-  height: max-content;
+  width: 27%;
+  padding: 0px 0px 0px 0px;
   background-color: #f2f2f2;
   border-radius: 20px;
-  margin-left: 50px;
   display: flex;
   flex-wrap: wrap;
-  gap: 35px 60px;
+  justify-content: space-evenly;
+}
+.populaire {
+  width: 90%;
+  display: flex;
   justify-content: left;
+  gap: 34%;
+  margin-top: 25px;
 }
 
 .populaire h2 {
+  font-size: 1vw;
   margin: 0px;
 }
 
 .populaire .fa-chart-line {
-  font-size: 25px;
-  margin-left: 110px;
+  font-size: 1vw;
   color: black;
 }
 
 .aside_element {
-  width: 80%;
+  width: 70%;
   background-color: white;
   height: 135px;
   border-radius: 20px;
@@ -350,44 +349,28 @@ nav a:hover {
 
 .aside_element_txt {
   width: 50%;
-  font-size: 15px;
-  margin-top: 8px;
+  height: 80%;
+  font-size: 80%;
+  margin-top: 2%;
 }
 
 .aside_element_txt .fas {
   letter-spacing: -2px;
-  margin-top: 25px;
+  margin-top: 10%;
 }
 
 .aside_overflow {
   border-top-left-radius: 10%;
   border-bottom-left-radius: 10%;
   overflow: hidden;
-  width: 40%;
-  height: 135px;
+  width: 50%;
+  height: 100%;
 }
 
 .aside_overflow img {
-  position: relative;
-  height: auto;
-}
-
-.hsm {
-  width: 170%;
-  left: -45px;
-  top: -4px;
-}
-
-.aclc {
-  width: 160%;
-  left: -35px;
-  top: -4px;
-}
-
-.htbb {
-  width: 115%;
-  left: -15px;
-  top: -45px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .aside_element i {
@@ -402,30 +385,31 @@ nav a:hover {
 }
 
 #activités_a_marseille {
-  width: 100%;
+  width: 91%;
   margin: 0px 0px 10px 0px;
   padding-left: 15px;
 }
 
 .col_activity {
-  width: 1420px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
   flex-direction: row;
+  justify-content: center;
   margin: 55px 0px 70px 0px;
-  justify-content: flex-start;
+  gap: 30px;
 }
+
 .right,
 .left {
-  width: 700px;
+  width: 45%;
   display: flex;
-  gap: 45px;
-  justify-content: center;
+  justify-content: space-evenly;
+  gap: 30px;
 }
+
 .activity_box {
   width: 45%;
-  min-width: 290px;
   height: 430px;
   overflow: hidden;
   display: flex;
@@ -436,6 +420,8 @@ nav a:hover {
 }
 
 .activity_box strong {
+  display: flex;
+  width: 90%;
   padding-left: 15px;
 }
 
@@ -456,8 +442,7 @@ nav a:hover {
 }
 
 .group1 {
-  width: 45%;
-  min-width: 290px;
+  width: 47%;
   height: 430px;
   display: flex;
   gap: 40px;
@@ -518,8 +503,7 @@ nav a:hover {
   left: -195px;
 }
 .group2 {
-  width: 45%;
-  min-width: 290px;
+  width: 47%;
   height: 430px;
   display: flex;
   flex-direction: column;
