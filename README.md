@@ -1,4 +1,4 @@
-# P2 - Bookie
+# P2 - Booki
 Project 2 - Working with flex styling an hotel reservation responsive website
 
 # Main interest
